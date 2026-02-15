@@ -1,0 +1,16 @@
+[project]
+name = "github-settings-sync"
+version = "0.1.0"
+description = "Synchronize GitHub repository settings from a master repository to multiple target repositories"
+requires-python = ">=3.8"
+dependencies = [
+    "PyGithub>=2.1.1",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

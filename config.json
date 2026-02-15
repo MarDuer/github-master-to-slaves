@@ -1,0 +1,4 @@
+{
+  "target_topic": "sync-from-master",
+  "stop_on_error": false
+}
